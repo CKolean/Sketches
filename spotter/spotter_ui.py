@@ -29,6 +29,7 @@ class SpotterDialog(QtWidgets.QDialog):
 
         self.resultTable = QtWidgets.QTableWidget()
         self.resultTable.setColumnCount(3)
+        self.resultTable.setRowCount(3)
         self.resultTable.setColumnWidth(0, 300)
         self.resultTable.setStyleSheet("color: white;"
                         "background-color: rgb(36, 36, 36)"
